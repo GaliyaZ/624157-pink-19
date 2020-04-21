@@ -1,0 +1,22 @@
+.header {
+  background-color: $light-blue;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.header__logo {
+  height: 22px;
+}
+
+@media (min-width: $tablet-width) {
+
+}
+
+@media (min-width: $tablet-width) and (max-width: $tablet-end) {
+
+}
+
+@media (min-width: $desktop-width) {
+
+}
