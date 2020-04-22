@@ -22,12 +22,15 @@
   color: $white;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 -2px rgba(0, 0, 0, 0.4);
+
   &:visited {
     color: $white;
   }
+
   &:focus {
     outline: none;
   }
+
   &:active {
     color: $pink-opacity;
   }
