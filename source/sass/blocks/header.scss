@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  font-family: "OpenSans-Bold", Arial, sans-serif;
+  font-family: "OpenSans-Bold", "Arial", sans-serif;
 }
 
 .header__logo {
@@ -19,7 +19,7 @@
   display: block;
   cursor: pointer;
 }
-
+/*
 @media (min-width: $tablet-width) {
 
 }
@@ -30,4 +30,4 @@
 
 @media (min-width: $desktop-width) {
 
-}
+}*/
