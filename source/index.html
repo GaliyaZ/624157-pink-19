@@ -2,28 +2,29 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>PINK</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header class="header">
       <a href="#" class="header__logo">
-        <img class="header__img" src="#" width="75px" height="22px" alt="Логотип PINK">
+      <picture>
+        <source media="min-width: 1200px" srcset="./img/logo-pink-white-desktop.svg">
+        <source media="min-width: 768px" srcset="./img/logo-pink-white-tablet.svg">
+        <img class="header__img" src="./img/logo-pink-white-mobile.svg" width="75px" height="22px" alt="Логотип PINK">
+      </picture>
       </a>
       <nav class="header__nav nav">
         <button class="nav__button"></button>
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="" class="nav__link nav__link--active">Главная</a>
+            <a href="#" class="nav__link nav__link--active">Главная</a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link">Фотографии</a>
+            <a href="#" class="nav__link">Фотографии</a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link">Конкурс</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">HTML Academy</a>
+            <a href="#" class="nav__link">Конкурс</a>
           </li>
         </ul>
       </nav>
@@ -80,6 +81,32 @@
       </section>
       <section class="reviews">
         <h2 class="reviews__heading visually-hidden"></h2>
+        <blockquote class="reviews__item">
+          <cite class="reviews__title"></cite>
+          <p class="reviews__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+              А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </blockquote>
+          <blockquote class="reviews__item">
+            <cite class="reviews__title"></cite>
+            <p class="reviews__text">
+              «2 приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+              А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </blockquote>
+          <blockquote class="reviews__item">
+            <cite class="reviews__title"></cite>
+            <p class="reviews__text">
+              «3 приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+              А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </blockquote>
+          <div class="reviews__toggles">
+            <button class="reviews__toggle-item" type="button">1</button>
+            <button class="reviews__toggle-item" type="button">2</button>
+            <button class="reviews__toggle-item" type="button">3</button>
+          </div>
       </section>
     </main>
   </body>
