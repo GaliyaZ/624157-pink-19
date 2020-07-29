@@ -19,69 +19,73 @@
       </symbol>
     </svg>
     <header class="header">
-      <a href="#" class="header__logo">
-      <picture>
-        <source media="(min-width: 1200px)" srcset="./img/logo-pink-white-desktop.svg">
-        <source media="(min-width: 768px)" srcset="./img/logo-pink-white-tablet.svg">
-        <img class="header__img" src="./img/logo-pink-white-mobile.svg" width="75px" height="22px">
-      </picture>
-        <!--<svg class="header__img" width="75px" height="22px">
-          <use xlink:href="#logo-pink"></use>
-        </svg>
-        <svg class="header__img" x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859" enable-background="new 0 0 74.426 22.859" xml:space="preserve">
-          <g>
-            <path fill="#FFFFFF" d="M0,1.449c0-0.708,0.58-1.288,1.256-1.288h7.18c5.087,0,8.436,2.704,8.436,7.147v0.064 c0,4.861-4.057,7.373-8.854,7.373H2.544v6.825c0,0.708-0.58,1.288-1.288,1.288C0.58,22.859,0,22.279,0,21.571V1.449z M8.114,12.428 c3.734,0,6.182-1.996,6.182-4.958V7.405c0-3.22-2.415-4.894-6.054-4.894H2.544v9.917H8.114z"/>
-            <path fill="#FFFFFF" d="M21.729,1.288C21.729,0.58,22.308,0,22.983,0c0.709,0,1.288,0.58,1.288,1.288v20.283 c0,0.708-0.579,1.288-1.288,1.288c-0.676,0-1.255-0.58-1.255-1.288V1.288z"/>
-            <path fill="#FFFFFF" d="M30.87,1.32c0-0.676,0.579-1.256,1.256-1.256h0.354c0.58,0,0.934,0.29,1.288,0.74l13.684,17.45V1.256 C47.451,0.58,47.998,0,48.707,0c0.676,0,1.223,0.58,1.223,1.256v20.348c0,0.676-0.482,1.191-1.158,1.191h-0.129 c-0.548,0-0.934-0.322-1.32-0.772L33.349,4.153v17.45c0,0.676-0.547,1.256-1.255,1.256c-0.677,0-1.224-0.58-1.224-1.256V1.32z"/>
-            <path fill="#FFFFFF" d="M56.3,1.288C56.3,0.58,56.879,0,57.556,0c0.708,0,1.287,0.58,1.287,1.288v12.331L71.689,0.451 C71.979,0.193,72.269,0,72.688,0c0.676,0,1.224,0.612,1.224,1.256c0,0.354-0.161,0.644-0.419,0.901l-7.984,7.92l8.564,10.561 c0.225,0.29,0.354,0.547,0.354,0.934c0,0.676-0.579,1.288-1.287,1.288c-0.483,0-0.806-0.258-1.03-0.58l-8.403-10.463l-4.862,4.861 v4.894c0,0.708-0.579,1.288-1.287,1.288c-0.677,0-1.256-0.58-1.256-1.288V1.288z"/>
-          </g>
-        </svg>-->
-      </a>
-      <nav class="header__nav nav">
-        <button class="nav__toggle nav__toggle--opened">
-          <span class="visually-hidden">Меню</span>
-        </button>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link nav__link--active">Главная</a>
-          </li>
-          <li class="nav__item">
-            <a href="photo.html" class="nav__link">Фотографии</a>
-          </li>
-          <li class="nav__item">
-            <a href="form.html" class="nav__link">Конкурс</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">HTML Academy</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <h1 class="visually-hidden">Pink - для создания ярких фотографий</h1>
+      <div class="header__nav">
+        <a href="#" class="header__logo">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./img/logo-pink-white-desktop.svg">
+            <source media="(min-width: 768px)" srcset="./img/logo-pink-white-tablet.svg">
+            <img class="header__img" src="./img/logo-pink-white-mobile.svg" width="75px" height="22px">
+          </picture>
+            <!--<svg class="header__img" width="75px" height="22px">
+              <use xlink:href="#logo-pink"></use>
+            </svg>
+            <svg class="header__img" x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859" enable-background="new 0 0 74.426 22.859" xml:space="preserve">
+              <g>
+                <path fill="#FFFFFF" d="M0,1.449c0-0.708,0.58-1.288,1.256-1.288h7.18c5.087,0,8.436,2.704,8.436,7.147v0.064 c0,4.861-4.057,7.373-8.854,7.373H2.544v6.825c0,0.708-0.58,1.288-1.288,1.288C0.58,22.859,0,22.279,0,21.571V1.449z M8.114,12.428 c3.734,0,6.182-1.996,6.182-4.958V7.405c0-3.22-2.415-4.894-6.054-4.894H2.544v9.917H8.114z"/>
+                <path fill="#FFFFFF" d="M21.729,1.288C21.729,0.58,22.308,0,22.983,0c0.709,0,1.288,0.58,1.288,1.288v20.283 c0,0.708-0.579,1.288-1.288,1.288c-0.676,0-1.255-0.58-1.255-1.288V1.288z"/>
+                <path fill="#FFFFFF" d="M30.87,1.32c0-0.676,0.579-1.256,1.256-1.256h0.354c0.58,0,0.934,0.29,1.288,0.74l13.684,17.45V1.256 C47.451,0.58,47.998,0,48.707,0c0.676,0,1.223,0.58,1.223,1.256v20.348c0,0.676-0.482,1.191-1.158,1.191h-0.129 c-0.548,0-0.934-0.322-1.32-0.772L33.349,4.153v17.45c0,0.676-0.547,1.256-1.255,1.256c-0.677,0-1.224-0.58-1.224-1.256V1.32z"/>
+                <path fill="#FFFFFF" d="M56.3,1.288C56.3,0.58,56.879,0,57.556,0c0.708,0,1.287,0.58,1.287,1.288v12.331L71.689,0.451 C71.979,0.193,72.269,0,72.688,0c0.676,0,1.224,0.612,1.224,1.256c0,0.354-0.161,0.644-0.419,0.901l-7.984,7.92l8.564,10.561 c0.225,0.29,0.354,0.547,0.354,0.934c0,0.676-0.579,1.288-1.287,1.288c-0.483,0-0.806-0.258-1.03-0.58l-8.403-10.463l-4.862,4.861 v4.894c0,0.708-0.579,1.288-1.287,1.288c-0.677,0-1.256-0.58-1.256-1.288V1.288z"/>
+              </g>
+            </svg>-->
+        </a>
+        <nav class="header__navigaton nav">
+          <button class="nav__toggle nav__toggle--closed">
+            <span class="visually-hidden">Меню</span>
+          </button>
+          <ul class="nav__list visually-hidden">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--active">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="photo.html" class="nav__link">Фотографии</a>
+            </li>
+            <li class="nav__item">
+              <a href="form.html" class="nav__link">Конкурс</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">HTML Academy</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <section class="presentation">
         <div class="presentation__look">
           <h2 class="presentation__heading">Взгляните на жизнь иначе!</h2>
           <picture>
-            <img class="presentation__img" src="#" width="320px" height="314px" alt="Демонстрация PINK">
+            <source media="(min-width: 1200px)" srcset="./img/iphone-hand-desktop@1x.png">
+            <source media="(min-width: 768px)" srcset="./img/iphone-hand-tablet@1x.png">
+            <img class="presentation__img" src="./img/iphone-hand-mobile@1x.png" width="287px" height="257px" alt="Демонстрация PINK">
           </picture>
         </div>
         <div class="presentation__app application">
           <a class="application__link" href="#">Скачать приложение</a>
           <ul class="application__system">
             <li class="application__system-item">
-              <a href="" class="application__system-link application__system-link--mac"></a>
+              <a href="#" class="application__system-link application__system-link--mac">iPhone</a>
             </li>
             <li class="application__system-item">
-              <a href="" class="application__system-link application__system-link--android"></a>
+              <a href="#" class="application__system-link application__system-link--android">Android</a>
             </li>
             <li class="application__system-item">
-              <a href="" class="application__system-link application__system-link--win"></a>
+              <a href="#" class="application__system-link application__system-link--win">Windows Phone</a>
             </li>
           </ul>
           <p class="application__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
         </div>
       </section>
+    </header>
+    <main class="main">
+      <h1 class="visually-hidden">Pink - для создания ярких фотографий</h1>
       <section class="about">
         <h2 class="about__heading">
           <span class="about__heading-question">Устали от серости мегаполиса?</span>
@@ -144,39 +148,83 @@
         </blockquote>
         <button class="reviews__button" type="button">Предыдущий отзыв</button>
         <button class="reviews__button" type="button">Следующй отзыв</button>
-        <div class="reviews__toggles">
-          <button class="reviews__toggle-item" type="button">1</button>
-          <button class="reviews__toggle-item" type="button">2</button>
-          <button class="reviews__toggle-item" type="button">3</button>
+        <div class="reviews__toggles toggles">
+          <button class="toggle__item toggle__item--active" type="button">1</button>
+          <button class="toggle__item" type="button">2</button>
+          <button class="toggle__item" type="button">3</button>
         </div>
       </section>
       <section class="rate">
         <table>
           <tr>
-            <th class="rate__name">База<span class="rate__price">1,99 USD</span></th>
-            <th class="rate__name">Стандарт<span class="rate__price">3,99 USD</span></th>
-            <th class="rate__name">Анлим<span class="rate__price">9,99 USD</span></th>
+            <th class="rate__name">База<br><span class="rate__price">1,99 USD</span></th>
+            <th class="rate__name">Стандарт<br><span class="rate__price">3,99 USD</span></th>
+            <th class="rate__name">Анлим<br><span class="rate__price">9,99 USD</span></th>
           </tr>
           <tr>
             <th class="rate__point">Розовый фильтр</th>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Да</td>
+            <td>Да</td>
+            <td>Да</td>
           </tr>
           <tr>
             <th class="rate__point">Смайлики</th>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Нет</td>
+            <td>Да</td>
+            <td>Да</td>
           </tr>
           <tr>
             <th class="rate__point">Комментарии</th>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Нет</td>
+            <td>Нет</td>
+            <td>Да</td>
           </tr>
         </table>
+        <div class="rate__toggles toggles">
+          <button class="toggle__item" type="button">1</button>
+          <button class="toggle__item toggle__item--active" type="button">2</button>
+          <button class="toggle__item" type="button">3</button>
+        </div>
+      </section>
+      <section class="contacts">
+        <h2 class="contacts__heading">Остались вопросы? Свяжитесь с нами!</h2>
+        <div class="contacts__wrapper">
+          <p class="contacts__call">Звоните: <a class="contacts__tel" href="tel:+78125556666">+7 (812) 555-66-66</a></p>
+          <p class="contacts__write">Пишите:<a class="contacts__mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+          <p class="contacts__location">Приезжайте в гости:<address class="contacts__addres">ул. Большая Конюшенная, 19/8</address></p>
+        </div>
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./img/bg-map-desktop@1x.jpg">
+          <source media="(min-width: 768px)" srcset="./img/bg-map-tablet@1x.jpg">
+          <img src="./img/bg-map-mobile@1x.png" width="320px" height="645px" alt="Карта">
+        </picture>
       </section>
     </main>
+    <footer>
+      <a href="#" class="header__logo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./img/logo-pink-blue-desktop.svg">
+          <img class="header__img" src="./img/logo-pink-blue-mobile.svg" width="75px" height="22px">
+        </picture>
+      </a>
+      <ul class="socials">
+        <li class="socials__item">
+          <a class="socials__link socials__link--vk" href="https://vk.com">
+            <img class="socials__img socials__img--vk" src="./img/icon-twitter.svg" width="22" height="12" alt="Мы в Twitter">
+          </a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link socials__link--facebook" href="https://www.facebook.com">
+            <img class="socials__img socials__img--fb" src="./img/icon-facebook.svg" width="10" height="19" alt="Мы в Фейсбуке">
+          </a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link socials__link--instagram" href="https://www.youtube.com">
+            <img class="socials__img socials__img--insta" src="./img/icon-youtube.svg" width="16" height="16" alt="Мы в Youtube">
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -1,16 +1,26 @@
 .header {
-  position: relative;
-  background-color: $light-blue;
+  background: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
   display: flex;
-  box-sizing: border-box;
   flex-direction: column;
-  width: 100vw;
   font-family: "OpenSans", "Arial", sans-serif;
   color: #ffffff;
+  position: relative;
+}
+
+.header__nav {
+  position: relative;
+  background-color: $light-blue;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .header__logo {
-  min-height: 66px;
+  min-height: 69px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -29,6 +39,11 @@
 }
 
 @media (min-width: $tablet-width) and (max-width: $tablet-end) {
+  .header {
+    background: url("../img/bg-back-tablet@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
   .nav__toggle--closed::before {
     top: 44px;
   }
@@ -50,6 +65,9 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 130px 0 130px;
+    background: url("../img/bg-back-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .header__logo {
